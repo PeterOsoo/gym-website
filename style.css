@@ -1,7 +1,45 @@
-body {
-	background-color: black;
+:root {
+	--red: #f9032f;
+	--black: #000;
+	--white: #fff;
 }
 
-h1 {
-	color: chocolate;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Poppons", sans-serif;
+}
+
+.navbar {
+	background-color: var(--black);
+	height: 60px;
+	padding: 0.5rem calc((100vw - 1200px) / 2);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.navbar__logo {
+	color: var(--white);
+	text-decoration: none;
+	padding-left: 1rems;
+	font-size: 1.5rem;
+}
+
+.navbar__link {
+	color: var(--white);
+	text-decoration: none;
+	padding: 0rem 1rem;
+}
+
+.navbar__link:hover {
+	color: var(--red);
+}
+
+@media screen and (max-width: 768px) {
+	.navbar__link {
+		display: none;
+	}
 }
