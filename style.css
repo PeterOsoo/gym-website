@@ -97,3 +97,16 @@
 		transform: translateY(-8px) rotate(-45deg);
 	}
 }
+
+/* Hero Section  */
+.hero {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+		url("./images/gym-1.jpg");
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	padding: 0.5rem calc((100vw - 1200px) / 2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
