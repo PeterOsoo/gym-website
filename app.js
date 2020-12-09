@@ -56,3 +56,12 @@ gsap.from(".animate-card", {
 	stagger: 0.1,
 	delay: 0.2,
 })
+
+gsap.from(".animate-team", {
+	scrollTrigger: ".animate-team",
+	duration: 1,
+	opacity: 0,
+	y: -150,
+	stagger: 0.3,
+	delay: 0.2,
+})
