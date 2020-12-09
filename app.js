@@ -38,3 +38,21 @@ gsap.from(".animate-img", {
 	opacity: 0,
 	x: -200,
 })
+
+gsap.from(".animate-membership", {
+	scrollTrigger: ".animate-membership",
+	duration: 1,
+	opacity: 0,
+	y: -150,
+	stagger: 0.3,
+	delay: 0.5,
+})
+
+gsap.from(".animate-card", {
+	scrollTrigger: ".animate-card",
+	duration: 1,
+	opacity: 0,
+	y: -150,
+	stagger: 0.1,
+	delay: 0.2,
+})
